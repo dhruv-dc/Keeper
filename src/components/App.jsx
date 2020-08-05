@@ -14,7 +14,6 @@ function App() {
   }
 
   function deleteNote(id) {
-    // console.log("Delete is triggered");
     setNotes((prevNotes) => {
       return prevNotes.filter((noteItem, index) => {
         return index !== id;
